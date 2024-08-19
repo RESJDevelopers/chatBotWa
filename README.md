@@ -12,7 +12,7 @@ Este chat bot está desarrollado en PHP utilizando la API de WhatsApp para recib
 2. **Configurar webhook**: En `index.php`, configura el token del webhook.
 3. **Configurar tokens**: En `mensajes.php`, configura el token y el ID del teléfono proporcionados por Facebook.
 4. **Verificar URL**: Asegúrate de que la URL utilizada sea la misma que en la aplicación (actualmente es v20, pero podría cambiar).
-5. **Configurar respuestas**: En `borman.php`, configura preguntas y respuestas según sea necesario.
+5. **Configurar respuestas**: En `botman.php`, configura preguntas y respuestas según sea necesario.
 
 ## Uso
 El webhook recibe el mensaje desde la API de WhatsApp, lo procesa a través del bot y envía una respuesta automática al número que realizó la consulta.
@@ -38,7 +38,7 @@ This chat bot is developed in PHP using the WhatsApp API to automatically receiv
 2. **Set up webhook**: In `index.php`, set up the webhook token.
 3. **Configure tokens**: In `mensajes.php`, configure the token and phone ID provided by Facebook.
 4. **Verify URL**: Ensure the URL used matches the one in the application (currently v20, but this may change).
-5. **Set up responses**: In `borman.php`, set up questions and answers as needed.
+5. **Set up responses**: In `botman.php`, set up questions and answers as needed.
 
 ## Usage
 The webhook receives the message from the WhatsApp API, processes it through the bot, and sends an automatic response to the number that sent the query.
