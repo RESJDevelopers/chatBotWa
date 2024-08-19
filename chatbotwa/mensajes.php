@@ -4,7 +4,7 @@
 */
 function enviar($recibido, $respuesta, $idWA, $timestamp, $telefonoCliente) {
     require_once './conexion.php';   
-
+    global $conexion;
     // CONSULTAMOS TODOS LOS REGISTROS CON EL ID DEL MENSAJE
     $sqlCantidad = "SELECT count(id) AS cantidad FROM registro WHERE id_wa='" . $idWA . "';";
     $resultCantidad = $conexion->query($sqlCantidad);
