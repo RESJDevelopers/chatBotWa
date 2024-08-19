@@ -1,6 +1,4 @@
-¡Claro! Aquí tienes un formato mejorado y bien estructurado para tu README en GitHub:
 
----
 
 ### Español
 
